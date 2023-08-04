@@ -19,9 +19,9 @@ public class Boss
 	{
 		if (mp >= 5)
 		{
-			Debug.Log ("魔法攻撃をした。残りMPは"+mp+"。");
 			// 残りmpを減らす
 			this.mp -= MagicPower;
+			Debug.Log ("魔法攻撃をした。残りMPは"+mp+"。");
 		}
 		else
 		{
